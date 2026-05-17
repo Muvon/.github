@@ -10,13 +10,24 @@
 
 AI as a first-class citizen of the workflow, not an afterthought. Most of our work is open source, written in Rust, designed to be one binary you can drop on a machine and trust.
 
-We focus on three things:
+Three things:
 
-- **Open source tools** that solve problems we hit in our own work
 - **Products** built end-to-end by a small AI-augmented team
+- **Open source tools** that solve problems we hit in our own work
 - **Selective partnerships** with teams shipping something we believe in
 
 Quality bar over feature count. Performance over abstraction. We ship publicly.
+
+---
+
+## Products
+
+- [**Octomind Cloud**](https://octomind.cloud) — Run AI agents without knowing how. Picks the agent, tools, model, and schedule. *Launching Jun 2026.* · [source](https://github.com/muvon/octomind-cloud)
+- [**Timex**](https://gettimex.app) — Automatic Mac time tracker. 1 Hz sampling into a local SQLite file. No cloud, no account. · [source](https://github.com/muvon/timex)
+- [**Vext**](https://getvext.app) — Voice-to-text for Mac. Local-only, with cleanup, translation, and meeting summaries on Apple Silicon. · [source](https://github.com/muvon/vext)
+- [**VnePN**](https://vnepn.top) — VPN built to work in Russia. VLESS + Reality, smart routing for banking apps. · [source](https://github.com/muvon/vnepn)
+
+All products: [muvon.io/products](https://muvon.io/products)
 
 ---
 
@@ -24,20 +35,20 @@ Quality bar over feature count. Performance over abstraction. We ship publicly.
 
 ### AI runtime & agents
 
-- [**Octomind**](https://github.com/muvon/octomind) — AI agent runtime: one binary, any model, any domain · *Rust*
-- [**Tap**](https://github.com/muvon/octomind-tap) — Community registry of specialist agents for Octomind · *TOML*
-- [**OctoHub**](https://github.com/muvon/octohub) — High-performance LLM proxy server · *Rust*
-- [**Octolib**](https://github.com/muvon/octolib) — Unified AI provider library · *Rust*
+- [**Octomind**](https://octomind.run/product/octomind/) — AI agent runtime: one binary, any model, any domain · *Rust* · [source](https://github.com/muvon/octomind)
+- [**Tap**](https://octomind.run/product/octomind-tap/) — Community registry of specialist agents for Octomind · *TOML* · [source](https://github.com/muvon/octomind-tap)
+- [**OctoHub**](https://octomind.run/product/octohub/) — High-performance LLM proxy server · *Rust* · [source](https://github.com/muvon/octohub)
+- [**Octolib**](https://octomind.run/product/octolib/) — Unified AI provider library · *Rust* · [source](https://github.com/muvon/octolib)
 
 ### MCP servers
 
-- [**Octocode**](https://github.com/muvon/octocode) — Semantic code search over MCP · *Rust*
-- [**Octobrain**](https://github.com/muvon/octobrain) — Persistent AI memory over MCP · *Rust*
-- [**Octofs**](https://github.com/muvon/octofs) — Filesystem MCP server for AI · *Rust*
+- [**Octocode**](https://octomind.run/product/octocode/) — Semantic code search over MCP · *Rust* · [source](https://github.com/muvon/octocode)
+- [**Octobrain**](https://octomind.run/product/octobrain/) — Persistent AI memory over MCP · *Rust* · [source](https://github.com/muvon/octobrain)
+- [**Octofs**](https://octomind.run/product/octofs/) — Filesystem MCP server for AI · *Rust* · [source](https://github.com/muvon/octofs)
 
 ### Apps
 
-- [**Octoweb**](https://github.com/muvon/octoweb) — Keyboard-first macOS browser with AI · *Swift*
+- [**Octoweb**](https://octomind.run/product/octoweb/) — Keyboard-first macOS browser with AI · *Swift* · [source](https://github.com/muvon/octoweb)
 
 ### Infrastructure & data
 
@@ -46,7 +57,7 @@ Quality bar over feature count. Performance over abstraction. We ship publicly.
 - [**Vanga**](https://github.com/muvon/vanga) — LSTM framework for training and price-movement prediction · *Rust*
 - [**KISSCore**](https://github.com/muvon/kisscore) — High-load PHP framework on Swoole · *PHP*
 
-Full list: [github.com/muvon](https://github.com/muvon)
+All open source: [muvon.io/open-source](https://muvon.io/open-source) · [github.com/muvon](https://github.com/muvon)
 
 ---
 
@@ -63,4 +74,4 @@ More: [About](https://muvon.io/about) · [Team](https://muvon.io/team) · [Conta
 - **Use the tools** — issues and PRs welcome on every repo
 - **Sponsor** → [github.com/sponsors/Muvon](https://github.com/sponsors/Muvon)
 - **Partner** → [hello@muvon.io](mailto:hello@muvon.io)
-- **Follow** → [Twitter](https://twitter.com/muvonteam) · [LinkedIn](https://www.linkedin.com/company/muvonteam) · [Reddit](https://www.reddit.com/r/muvon/) · [Blog](https://muvon.io/blog)
+- **Follow** → [X/Twitter](https://x.com/muvonteam) · [LinkedIn](https://www.linkedin.com/company/muvonteam) · [Reddit](https://www.reddit.com/r/muvon/) · [Blog](https://muvon.io/blog)
