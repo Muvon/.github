@@ -22,8 +22,9 @@ Quality bar over feature count. Performance over abstraction. We ship publicly.
 
 ## Products
 
-- [**Octomind Cloud**](https://octomind.cloud) — Run AI agents without knowing how. Picks the agent, tools, model, and schedule. *Launching Jun 2026.* · [source](https://github.com/muvon/octomind-cloud)
-- [**Timex**](https://gettimex.app) — Automatic Mac time tracker. 1 Hz sampling into a local SQLite file. No cloud, no account. · [source](https://github.com/muvon/timex)
+- [**Octomind Cloud**](https://octomind.run/cloud) — Pick an agent; it gets its own computer. Twelve specialist agents — researcher, blog writer, SEO auditor, data analyst, developer — each on a real Linux machine in the cloud that browses the web, writes and runs code, and keeps your files. Free tier, per-second billing, REST API on every plan. · [source](https://github.com/muvon/octomind-cloud)
+- [**TypeTab**](https://typetab.app) — On-device autocomplete for your whole Mac. Tab takes the next word, Ctrl+E the line. Learns how you write — entirely on Apple Silicon, nothing leaves your Mac.
+- [**Timex**](https://gettimex.app) — Automatic Mac time tracker, break timer, and lid-down keeper. 1 Hz sampling into a local SQLite file. No cloud, no account. · [source](https://github.com/muvon/timex)
 - [**Vext**](https://getvext.app) — Voice-to-text for Mac. Local-only, with cleanup, translation, and meeting summaries on Apple Silicon. · [source](https://github.com/muvon/vext)
 - [**VnePN**](https://vnepn.top) — VPN built to work in Russia. VLESS + Reality, smart routing for banking apps. · [source](https://github.com/muvon/vnepn)
 
@@ -35,7 +36,7 @@ All products: [muvon.io/products](https://muvon.io/products)
 
 ### AI runtime & agents
 
-- [**Octomind**](https://octomind.run/product/octomind/) — AI agent runtime: one binary, any model, any domain · *Rust* · [source](https://github.com/muvon/octomind)
+- [**Octomind**](https://octomind.run/product/octomind/) — AI agent runtime: one binary, any model, any domain. The open-source core behind the cloud · *Rust* · [source](https://github.com/muvon/octomind)
 - [**Tap**](https://octomind.run/product/octomind-tap/) — Community registry of specialist agents for Octomind · *TOML* · [source](https://github.com/muvon/octomind-tap)
 - [**OctoHub**](https://octomind.run/product/octohub/) — High-performance LLM proxy server · *Rust* · [source](https://github.com/muvon/octohub)
 - [**Octolib**](https://octomind.run/product/octolib/) — Unified AI provider library · *Rust* · [source](https://github.com/muvon/octolib)
@@ -48,10 +49,11 @@ All products: [muvon.io/products](https://muvon.io/products)
 
 ### Apps
 
-- [**Octoweb**](https://octomind.run/product/octoweb/) — Keyboard-first macOS browser with AI · *Swift* · [source](https://github.com/muvon/octoweb)
+- [**Octoweb**](https://octomind.run/product/octoweb/) — Keyboard-first macOS browser with AI · *Rust* · [source](https://github.com/muvon/octoweb)
 
 ### Infrastructure & data
 
+- [**Synx**](https://github.com/muvon/synx) — Real-time bidirectional file sync over SSH for remote development · *Rust*
 - [**Yoda**](https://github.com/muvon/yoda) — Docker Compose orchestrator for easy deployment · *Shell*
 - [**Pulsora**](https://github.com/muvon/pulsora) — Fast database for time-series and financial data · *Rust*
 - [**Vanga**](https://github.com/muvon/vanga) — LSTM framework for training and price-movement prediction · *Rust*
